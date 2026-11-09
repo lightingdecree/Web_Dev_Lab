@@ -1,17 +1,18 @@
-# Web_Dev_Lab
+# Web Development Lab
+**Student Name:** Chiranth C R  
+**USN:** YOUR_USN_HERE  
 
-Lab practicals for Programming for Web Development.
-
-## Tech used
-- HTML, CSS (Flexbox, Grid)
-- Git and GitHub
-- VS Code
-
-## Practicals
-- P1: Terminal navigation
-- P2: Git init and first commit
-- P3: Feature-branch workflow
-- P4: README and version tags
-
-## How to run
-Open any practical's `index.html` in a browser or with VS Code Live Server.
+## Lab Programs Index
+- **Programme 1:** Git setup and initialization (Screenshot)
+- **Programme 2:** Staging, committing, and status verification (Screenshot)
+- **Programme 3:** Git branching and merging (Screenshot)
+- **Programme 4:** Remote synchronization and tags (Screenshot)
+- **Programme 5:** Semantic HTML5 personal profile page
+- **Programme 6:** Student registration form with validation
+- **Programme 7:** CSS box model and product cards
+- **Programme 8:** Responsive navigation bar using Flexbox
+- **Programme 9:** Photo gallery layout using Flexbox wrap
+- **Programme 10:** Multi-column layout using CSS Grid
+- **Programme 11:** Newspaper layout using CSS Grid
+- **Programme 12:** Portfolio showcase grid with spanning
+- **Programme 13:** Layout combining Flexbox and CSS Grid
