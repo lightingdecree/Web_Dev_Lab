@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme 13 - Combined Flexbox and Grid Dashboard</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+
+<body>
+
+    <!-- Macro layout shell built with CSS Grid -->
+    <div class="dashboard">
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <h2>DevPortal</h2>
+                <span class="badge">Student OS</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">Overview</a>
+                <a href="#">Courses</a>
+                <a href="#">Lab Submissions</a>
+                <a href="#">Voice Club</a>
+                <a href="#">Settings</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+
+            <!-- Header aligned with Flexbox -->
+            <header class="top-bar">
+                <div>
+                    <h1>Student Learning Dashboard</h1>
+                    <p>Semester practical progress & metrics</p>
+                </div>
+                <div class="user-pill">
+                    <span class="dot"></span> Active Session
+                </div>
+            </header>
+
+            <!-- Metric Cards Grid -->
+            <section class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-label">Lab Programs</span>
+                    <h3>13 / 13</h3>
+                    <p class="tag green">Complete</p>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Git Commits</span>
+                    <h3>42</h3>
+                    <p class="tag blue">Web_Dev_Lab</p>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Current Term</span>
+                    <h3>Semester 1</h3>
+                    <p class="tag green">On Track</p>
+                </div>
+            </section>
+
+            <!-- Lower Panels Grid -->
+            <section class="panels-grid">
+                <div class="panel">
+                    <div class="panel-header">
+                        <h3>Recent Lab Modules</h3>
+                        <span class="small-link">View All</span>
+                    </div>
+                    <ul class="activity-list">
+                        <li>
+                            <span>P11: Newspaper Grid Layout</span>
+                            <span class="pill">Done</span>
+                        </li>
+                        <li>
+                            <span>P12: Advanced Grid Spanning</span>
+                            <span class="pill">Done</span>
+                        </li>
+                        <li>
+                            <span>P13: Flexbox + Grid Dashboard</span>
+                            <span class="pill active">Final</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-header">
+                        <h3>Key Takeaway</h3>
+                        <span class="small-link">Theory</span>
+                    </div>
+                    <p class="note">
+                        Use <strong>CSS Grid</strong> for macro-level 2D layout framing (page shells, multi-column card
+                        sections) and <strong>Flexbox</strong> for 1D micro-alignments (navbars, card headers, and
+                        button groups).
+                    </p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
