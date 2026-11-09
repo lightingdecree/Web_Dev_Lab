@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme 12 - Advanced CSS Grid Spanning</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <span class="tag">Undergraduate Portfolio</span>
+            <h1>Featured Engineering Projects</h1>
+            <p>Responsive showcase grid demonstrating CSS Grid row and column spanning</p>
+        </div>
+
+        <div class="grid">
+            <!-- Spans 2 columns and 2 rows -->
+            <div class="box wide tall featured">
+                <span class="badge">Major Project</span>
+                <h3>1. Worker Booking Application</h3>
+                <p>Full-stack mobile and web portal connecting local service technicians with residents in Bengaluru.
+                    Built with React Native, Supabase backend, and REST APIs.</p>
+            </div>
+
+            <!-- Regular 1x1 card -->
+            <div class="box">
+                <span class="badge">Utility</span>
+                <h3>2. CGPA Calculator</h3>
+                <p>Fast SGPA and attendance tracker built with Vanilla JavaScript and local storage.</p>
+            </div>
+
+            <!-- Spans 2 rows vertically -->
+            <div class="box tall">
+                <span class="badge">AI / ML</span>
+                <h3>3. AI Study Assistant</h3>
+                <p>LLM tool for summarizing computer science lecture transcripts, extracting key terms, and generating
+                    revision flashcards.</p>
+            </div>
+
+            <!-- Regular 1x1 card -->
+            <div class="box">
+                <span class="badge">Web Dev</span>
+                <h3>4. Campus Club Portal</h3>
+                <p>Registration page and interactive schedule dashboard for college Voice Club events.</p>
+            </div>
+
+            <!-- Spans 2 columns horizontally -->
+            <div class="box wide">
+                <span class="badge">Full Stack</span>
+                <h3>5. Hostel Mess Feedback System</h3>
+                <p>Real-time rating dashboard for student meal schedules with analytics charts for wardens.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
