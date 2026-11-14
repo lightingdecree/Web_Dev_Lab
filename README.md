@@ -1,6 +1,6 @@
 # Web Development Lab
 **Student Name:** Chiranth C R  
-**USN:** YOUR_USN_HERE  
+**USN:** 217  
 
 ## Lab Programs Index
 - **Programme 1:** Git setup and initialization (Screenshot)
